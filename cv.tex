@@ -1,0 +1,61 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{parskip}
+
+% Commande pour information personnelle
+\newcommand{\personalinfo}[1]{
+    \noindent
+    \begin{tabbing}
+    \hspace{2cm} \= \kill
+    #1
+    \end{tabbing}
+}
+
+% Commande pour ajouter une ligne sous chaque section
+\newcommand{\sectionline}{
+    \noindent\rule{\textwidth}{0.5pt}
+}
+
+\begin{document}
+
+% Informations personnelles
+\personalinfo{
+    \textbf{Nom:} Demuth Axel \\
+    \textbf{Adresse:} 11 Rue du général de Gaulle Gerstheim  \\
+    \textbf{Téléphone:} 07 71 08 67 12
+    \textbf{Email:} axeldemuth67150@gmail.com
+}
+
+% Profil
+\section*{Profil}
+\sectionline
+Un paragraphe ici décrivant brièvement votre profil professionnel, vos compétences principales et vos objectifs de carrière.
+
+% Formation
+\section*{Formation}
+\sectionline
+\textbf{Nom du diplôme}, Nom de l'institution, Date \\
+Description courte de vos études, spécialisations, projets pertinents, etc.
+
+% Expérience
+\section*{Expérience}
+\sectionline
+\textbf{Poste occupé}, Nom de l'entreprise, Dates \\
+Description de votre rôle, responsabilités, et réalisations principales.
+
+\noindent
+\textbf{Poste occupé}, Nom de l'entreprise, Dates \\
+Autre description d'un rôle précédemment occupé.
+
+% Compétences
+\section*{Compétences}
+\sectionline
+Listez ici vos compétences techniques, linguistiques, ou autres (ex: Langages de programmation, logiciels, langues, etc.).
+
+\end{document}
