@@ -1,0 +1,5 @@
+{
+"name": "ubuntu",
+"image":"ubuntu:noble"
+
+}
