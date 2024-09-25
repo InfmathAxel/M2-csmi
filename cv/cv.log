@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.8.26)  9 SEP 2024 14:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.8.26)  25 SEP 2024 09:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/adhome/a/ad/a.demuth/Bureau/M2-GIT/M2-csmi/cv.tex
-(/adhome/a/ad/a.demuth/Bureau/M2-GIT/M2-csmi/cv.tex
+**/adhome/a/ad/a.demuth/Bureau/M2-GIT/M2-csmi/cv/cv.tex
+(/adhome/a/ad/a.demuth/Bureau/M2-GIT/M2-csmi/cv/cv.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-01-16> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -182,14 +182,14 @@ LaTeX Font Info:    ... okay on input line 25.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./cv.aux) ) 
 Here is how much of TeX's memory you used:
  2552 strings out of 476091
- 42730 string characters out of 5794081
- 1853330 words of memory out of 5000000
+ 42739 string characters out of 5794081
+ 1854330 words of memory out of 5000000
  22956 multiletter control sequences out of 15000+600000
  524070 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,5n,62p,1235b,147s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,5n,62p,1238b,147s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb>
-Output written on cv.pdf (1 page, 82755 bytes).
+Output written on cv.pdf (1 page, 86006 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  14 compressed objects within 1 object stream

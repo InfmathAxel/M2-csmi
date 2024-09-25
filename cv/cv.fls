@@ -1,9 +1,9 @@
-PWD /adhome/a/ad/a.demuth/Bureau/M2-GIT/M2-csmi
+PWD /adhome/a/ad/a.demuth/Bureau/M2-GIT/M2-csmi/cv
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /adhome/a/ad/a.demuth/Bureau/M2-GIT/M2-csmi/cv.tex
+INPUT /adhome/a/ad/a.demuth/Bureau/M2-GIT/M2-csmi/cv/cv.tex
 OUTPUT cv.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
