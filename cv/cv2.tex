@@ -9,52 +9,74 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{xcolor}
 
 % Configuration de la page
-\geometry{margin=1in}
-\pagestyle{fancy}
-\setlength{\headheight}{30pt}  % Ajuste la hauteur de l'en-tête
-\fancyhf{} % Clear header/footer
-\fancyhead[L]{
-    \textbf{\LARGE DEMUTH AXEL} \\
-    Email: axeldemuth67150@gmail.com \\
-    GitHub: Ademuth \\
-    Phone: +33 07 71 08 67 12 \\
-}
-\fancyfoot[C]{\thepage}
 
 \begin{document}
 
-\vspace{1cm}  % Réduire l'espace vertical
+% Header amélioré
+\begin{center}
+    \begin{tabular}{>{\bfseries}l c l}
+        \textbf{\LARGE DEMUTH AXEL} & & \\[0.3cm]
+        \textbf{Mail:} axeldemuth67150@gmail.com & | & \textbf{GitHub:} Ademuth \\[0.1cm]
+        \textbf{Téléphone:} +33 07 71 08 67 12 & | & Strasbourg, France
+    \end{tabular}
+\end{center}
+
+\vspace{0.5cm}
+
+% Ajout de l'objectif de stage
+\begin{center}
+    \textbf{À la recherche d'un stage de M2 d'une durée de 4 à 6 mois entre février et août 2025}
+\end{center}
+
+\vspace{0.5cm}
 
 \section*{Formation}
-\textbf{Master en Mathématiques Appliquées} 
+\noindent
+\textbf{Master en Mathématiques Appliquées} \\
 Université de Strasbourg, 2023 - en cours \\
 Spécialisation en calcul scientifique et mathématiques de l'innovation, avec des compétences en simulation, modélisation et data science. \\
-Principales matières : Analyse fonctionnelle, Optimisation, Équations aux dérivées partielles (EDP), Intelligence artificielle (IA), Calcul haute performance (HPC), Analyse de signal, Analyse de graphes. \\
-Langages de programmation : Python, C++, Julia.
+
+\noindent
+\textbf{Principales matières:} Analyse fonctionnelle, Optimisation, Équations aux dérivées partielles (EDP), Intelligence artificielle (IA), Calcul haute performance (HPC), Analyse de signal, Analyse de graphes. \\
+
+\noindent
+\textbf{Langages de programmation:} Python, C++, C, Julia. \\
+\textbf{librairies:} CGAL,MPI,STL,Tensorflow,Pytorch,Sklearn,Scipy 
+\vspace{0.1cm}
 
 \noindent
 \textbf{Licence en Mathématiques et Informatique} \\
 Université de Strasbourg, 2019 - 2023 \\
-Cours suivis : Algèbre, Calcul différentiel, Probabilités, Statistiques, Équations différentielles ordinaires (EDO), Analyse de Fourier, Programmation en Python et C++.
+\noindent
+\textbf{Cours suivis :} Algèbre, Calcul différentiel, Probabilités, Statistiques, Équations différentielles ordinaires (EDO), Analyse de Fourier, Programmation en Python et C++. \\
 
-\section*{Langues}
-\begin{itemize}[label={}]
-    \item \textbf{Français :} Natif
-    \item \textbf{Anglais :} Niveau B2
-\end{itemize}
+\vspace{0.1cm}
+
+\noindent
+\textbf{Langues} \\
+\textbf{Français :} Natif, \textbf{Anglais :} Niveau B2
+
+
+\vspace{0.2cm}
 
 \section*{Expériences}
 \noindent
 \textbf{Stage - IRMA Strasbourg} \\
 Juin à août 2024 \\
-Développement d'une bibliothèque pour le projet Ktirio Urban Building dans le cadre du projet Numpex Exa-MA. Contribution au module Kinetic, en utilisant la bibliothèque CGAL et l'algorithme de reconstruction de surface cinétique pour reconstruire des maillages 3D à partir de nuages de points, avec correction des imprécisions du maillage.
+Développement d'une bibliothèque pour le projet Ktirio Urban Building dans le cadre du projet Numpex Exa-MA. Contribution au module Kinetic, en utilisant la bibliothèque CGAL et l'algorithme de reconstruction de surface cinétique pour reconstruire des maillages 3D à partir de nuages de points, avec correction des imprécisions du maillage. \\
+
+\vspace{0.3cm}
 
 \noindent
 \textbf{Projet - Simulation de la chaleur sur un CPU} \\
-Réalisation d'une simulation en C++ du comportement thermique d'un CPU à l'aide de solutions numériques d'EDP. Implémentation de deux modèles : stationnaire et dynamique.
+Réalisation d'une simulation en C++ du comportement thermique d'un CPU à l'aide de solutions numériques d'EDP. Implémentation de deux modèles : stationnaire et dynamique. \\
 
+\vspace{0.3cm}
 
 \noindent
 \textbf{Emplois étudiants}

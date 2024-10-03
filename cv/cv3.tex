@@ -6,7 +6,7 @@
 \usepackage{geometry}
 \geometry{a4paper, margin=1in}
 \usepackage{enumitem}
-\usepackage{graphicx}
+\usepackage{graphicx} % Pour inclure la photo
 \usepackage{hyperref}
 \usepackage{fancyhdr}
 \usepackage{multicol}
@@ -17,13 +17,26 @@
 
 \begin{document}
 
-% Header amélioré
+% Header amélioré avec photo
+\begin{tabular}{>{\bfseries}l c l}
+    \begin{minipage}{0.7\textwidth} % Largeur du texte (à gauche)
+        \textbf{\LARGE DEMUTH AXEL} \\[0.3cm]
+        \textbf{Mail:} axeldemuth67150@gmail.com \\[0.1cm]
+        \textbf{Téléphone:} +33 07 71 08 67 12 \\[0.1cm]
+        \textbf{GitHub:}Ademuth \\
+        Strasbourg, France
+    \end{minipage} &
+    \begin{minipage}{0.3\textwidth} % Largeur de la photo (à droite)
+        \raggedleft % Aligner à droite
+        \includegraphics[width=3.5cm]{photo.jpg} % Inclure votre photo (ajustez la taille selon vos besoins)
+    \end{minipage}
+\end{tabular}
+
+\vspace{0.5cm}
+
+% Ajout de l'objectif de stage
 \begin{center}
-    \begin{tabular}{>{\bfseries}l c l}
-        \textbf{\LARGE DEMUTH AXEL} & & \\[0.3cm]
-        \textbf{Mail:} axeldemuth67150@gmail.com & | & \textbf{GitHub:} Ademuth \\[0.1cm]
-        \textbf{Téléphone:} +33 07 71 08 67 12 & | & Strasbourg, France
-    \end{tabular}
+    \textbf{À la recherche d'un stage de M2 d'une durée de 4 à 6 mois entre février et août 2025}
 \end{center}
 
 \vspace{0.5cm}
@@ -35,12 +48,13 @@ Université de Strasbourg, 2023 - en cours \\
 Spécialisation en calcul scientifique et mathématiques de l'innovation, avec des compétences en simulation, modélisation et data science. \\
 
 \noindent
-\textbf{Principales matières :} Analyse fonctionnelle, Optimisation, Équations aux dérivées partielles (EDP), Intelligence artificielle (IA), Calcul haute performance (HPC), Analyse de signal, Analyse de graphes. \\
+\textbf{Principales matières:} Analyse fonctionnelle, Optimisation, Équations aux dérivées partielles (EDP), Intelligence artificielle (IA), Calcul haute performance (HPC), Analyse de signal, Analyse de graphes. \\
+\noindent
+\textbf{Langages de programmation:} Python, C++, C, Julia. \\
 
 \noindent
-\textbf{Langages de programmation :} Python, C++, C, Julia. \\
-
-\vspace{0.1cm}
+\textbf{Bibliothèques:} CGAL,MPI,STL,Tensorflow,Pytorch,Sklearn,Scipy 
+\vspace{0.2cm}
 
 \noindent
 \textbf{Licence en Mathématiques et Informatique} \\
