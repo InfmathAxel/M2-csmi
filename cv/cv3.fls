@@ -616,11 +616,6 @@ INPUT /usr/share/texmf/tex/latex/lm/omxlmex.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/lmex10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT ./photo.jpg
-INPUT ./photo.jpg
-INPUT photo.jpg
-INPUT ./photo.jpg
-INPUT ./photo.jpg
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
