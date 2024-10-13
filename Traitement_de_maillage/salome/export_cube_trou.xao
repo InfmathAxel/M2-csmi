@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XAO version="1.0" author="Me">
+  <geometry name="Cut_1">
+    <shape format="BREP" file="/adhome/a/ad/a.demuth/a.demuth/a.demuth/Bureau/M2-GIT/M2-csmi/Traitement_de_maillage/salome/export_cube_trou.xao.brep"/>
+    <topology>
+      <vertices count="16">
+        <vertex index="0" name="" reference="7"/>
+        <vertex index="1" name="" reference="8"/>
+        <vertex index="2" name="" reference="10"/>
+        <vertex index="3" name="" reference="12"/>
+        <vertex index="4" name="" reference="17"/>
+        <vertex index="5" name="" reference="22"/>
+        <vertex index="6" name="" reference="34"/>
+        <vertex index="7" name="" reference="36"/>
+        <vertex index="8" name="" reference="41"/>
+        <vertex index="9" name="" reference="46"/>
+        <vertex index="10" name="" reference="58"/>
+        <vertex index="11" name="" reference="60"/>
+        <vertex index="12" name="" reference="65"/>
+        <vertex index="13" name="" reference="70"/>
+        <vertex index="14" name="" reference="82"/>
+        <vertex index="15" name="" reference="84"/>
+      </vertices>
+      <edges count="32">
+        <edge index="0" name="" reference="6"/>
+        <edge index="1" name="" reference="9"/>
+        <edge index="2" name="" reference="11"/>
+        <edge index="3" name="" reference="13"/>
+        <edge index="4" name="" reference="16"/>
+        <edge index="5" name="" reference="18"/>
+        <edge index="6" name="" reference="21"/>
+        <edge index="7" name="" reference="23"/>
+        <edge index="8" name="" reference="26"/>
+        <edge index="9" name="" reference="33"/>
+        <edge index="10" name="" reference="35"/>
+        <edge index="11" name="" reference="37"/>
+        <edge index="12" name="" reference="40"/>
+        <edge index="13" name="" reference="42"/>
+        <edge index="14" name="" reference="45"/>
+        <edge index="15" name="" reference="47"/>
+        <edge index="16" name="" reference="50"/>
+        <edge index="17" name="" reference="57"/>
+        <edge index="18" name="" reference="59"/>
+        <edge index="19" name="" reference="61"/>
+        <edge index="20" name="" reference="64"/>
+        <edge index="21" name="" reference="66"/>
+        <edge index="22" name="" reference="69"/>
+        <edge index="23" name="" reference="71"/>
+        <edge index="24" name="" reference="74"/>
+        <edge index="25" name="" reference="81"/>
+        <edge index="26" name="" reference="83"/>
+        <edge index="27" name="" reference="85"/>
+        <edge index="28" name="" reference="88"/>
+        <edge index="29" name="" reference="89"/>
+        <edge index="30" name="" reference="92"/>
+        <edge index="31" name="" reference="95"/>
+      </edges>
+      <faces count="20">
+        <face index="0" name="" reference="4"/>
+        <face index="1" name="" reference="14"/>
+        <face index="2" name="" reference="19"/>
+        <face index="3" name="" reference="24"/>
+        <face index="4" name="" reference="27"/>
+        <face index="5" name="" reference="31"/>
+        <face index="6" name="" reference="38"/>
+        <face index="7" name="" reference="43"/>
+        <face index="8" name="" reference="48"/>
+        <face index="9" name="" reference="51"/>
+        <face index="10" name="" reference="55"/>
+        <face index="11" name="" reference="62"/>
+        <face index="12" name="" reference="67"/>
+        <face index="13" name="" reference="72"/>
+        <face index="14" name="" reference="75"/>
+        <face index="15" name="" reference="79"/>
+        <face index="16" name="" reference="86"/>
+        <face index="17" name="" reference="90"/>
+        <face index="18" name="" reference="93"/>
+        <face index="19" name="" reference="96"/>
+      </faces>
+      <solids count="4">
+        <solid index="0" name="" reference="2"/>
+        <solid index="1" name="" reference="29"/>
+        <solid index="2" name="" reference="53"/>
+        <solid index="3" name="" reference="77"/>
+      </solids>
+    </topology>
+  </geometry>
+  <groups count="1">
+    <group name="Group_1" dimension="solid" count="4">
+      <element index="0"/>
+      <element index="1"/>
+      <element index="2"/>
+      <element index="3"/>
+    </group>
+  </groups>
+  <fields count="0"/>
+</XAO>
