@@ -1,10 +1,10 @@
-.aux
-.fdb_latexmk
-.fls
-.log
-.synctex.gz
-.out
-.venv
-gmsh-env
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.out
+*.venv*
+*gmsh-env
 
 
