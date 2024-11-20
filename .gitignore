@@ -1,10 +1,17 @@
-.aux
-.fdb_latexmk
-.fls
-.log
-.synctex.gz
-.out
-.venv
-gmsh-env
+autoDiff_venv/
+**/__pycache__/
+*.log
+*.aux
+*.fdb_latexmk
+*.fls
+*log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.pdf
+*venv*
+*gmsh-env
 
 
