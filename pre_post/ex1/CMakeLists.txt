@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-project(cylinderExample)
+project(helloworld)
 
 set(CMAKE_BUILD_TYPE "Release")
 
@@ -10,15 +10,9 @@ set(CMAKE_BUILD_TYPE "Release")
 
 #set(VTK_DIR "C:\\Program Files\\VTK\\lib\\vtk-5.10")
 
-find_package(VTK REQUIRED)
-include(${VTK_USE_FILE})
 
 include_directories(".")
 
-add_executable(cylinderExample 
-  CylinderExample.cpp)
+add_executable(hello main.cpp)
 
-target_link_libraries(cylinderExample
-  ${VTK_LIBRARIES})
 
-install(TARGETS cylinderExample RUNTIME DESTINATION bin)
