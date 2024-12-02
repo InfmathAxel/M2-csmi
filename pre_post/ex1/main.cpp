@@ -75,11 +75,11 @@ int main()
 
     vtkSmartPointer<vtkRenderWindowInteractor> renderWindowInteractor =
       vtkSmartPointer<vtkRenderWindowInteractor>::New();
-  renderWindowInteractor->SetRenderWindow(renderWindow);
+    renderWindowInteractor->SetRenderWindow(renderWindow);
 
-  // This starts the event loop and as a side effect causes an initial render.
-  renderWindow->Render();
-  renderWindowInteractor->Start();   
+    // This starts the event loop and as a side effect causes an initial render.
+    renderWindow->Render();
+    renderWindowInteractor->Start();   
 
 
     (*pointSet_).Delete();
