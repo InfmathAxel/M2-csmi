@@ -15,10 +15,10 @@ include(${VTK_USE_FILE})
 
 include_directories(".")
 
-add_executable(hello
-  main.cpp)
+add_executable(cylinderExample 
+  CylinderExample.cpp)
 
-target_link_libraries(hello
+target_link_libraries(cylinderExample
   ${VTK_LIBRARIES})
 
-install(TARGETS hello RUNTIME DESTINATION bin)
+install(TARGETS cylinderExample RUNTIME DESTINATION bin)
