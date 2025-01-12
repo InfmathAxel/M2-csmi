@@ -1,0 +1,39 @@
+\documentclass[10pt]{beamer}
+\usetheme{metropolis}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{stmaryrd}
+
+\title{Présentation étude d'incertitudes sur l'équation de Burgers}
+\author{Demuth Axel}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+\begin{frame}{Introduction}
+    On étudie l'importance des paramètres influençant la dynamique d'un bouchon de circulation, modélisé par l'équation de Burgers suivante : 
+
+    \begin{equation}
+        \frac{\partial \rho}{\partial t} + \frac{\partial}{\partial x} \big(\rho v(\rho)\big) = 0,
+        \end{equation}
+        avec 
+        \begin{equation}
+        v(\rho) = v_{\text{max}} \left( 1 - \frac{\rho}{\rho_{\text{max}}} \right),
+        \end{equation}
+        et 
+        \begin{equation}
+        \rho(t = 0, x) =
+        \begin{cases} 
+        \rho_{\text{in}}, & x < x_C, \\
+        \rho_{\text{out}}, & x > x_C.
+        \end{cases}
+    \end{equation}
+        
+\end{frame}
+
+
+\end{document}
